@@ -8,7 +8,7 @@ Dependencies
 To succesfully implement this script you need to install Spyder on your system.
 
 Before you start  
-To start analysis, please enter next information:
+To start analysis, please enter next information: 
 - the full path to the .fastq file
 - number of analyzed libraries
 - name of each library
