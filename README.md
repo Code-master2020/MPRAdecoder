@@ -13,6 +13,8 @@ To start analysis, please enter next information:
 - number of analyzed libraries
 - name of each library
 - indices corresponding to the replicas of expression, normalization and mapping
+  
+Output_data: example of files generating by pipeline.
 
 
 
