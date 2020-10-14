@@ -5,11 +5,9 @@ Current version (2.0) of this script was designed by Anna Letiagina from Alexey 
 Version 1.0 of this script was developed by Anton Ivankin.
 
 Dependencies
-
 To succesfully implement this script you need to install Spyder on your system.
 
 Before you start
-
 To start analysis, please enter next information:
 - the full path to the .fastq file
 - number of analyzed libraries
