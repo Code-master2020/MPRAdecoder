@@ -20,7 +20,7 @@ seaborn 0.11.1.
 
 To start analysis, you need to create directory containing files MPRAdecoder.py and parameters.py. 
 File MPRAdecoder.py contains script for analysis of raw MPRA data and you should not change something there.
-File parameters.py is configuration file and you can input your configures here. 
+File parameters.py is configuration file and you can input your settings here. 
 
 
 
