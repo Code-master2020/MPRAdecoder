@@ -22,7 +22,7 @@ To start analysis, you need to create directory containing files MPRAdecoder.py 
 File MPRAdecoder.py contains script for analysis of raw MPRA data and you should not change something there.
 File parameters.py is configuration file and you can input your settings here. 
 
-
+To test this script, download files from directories MPRAdecoder/example/input_data and MPRAdecoder/example/code. 
 
 
 
