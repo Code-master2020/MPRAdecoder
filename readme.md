@@ -11,7 +11,7 @@ Installing conda on linux: https://docs.conda.io/projects/conda/en/latest/user-g
 
 Spyder installation guide: https://docs.spyder-ide.org/current/installation.html
 
-To activate spyder envirinment:
+To activate spyder environment:
 conda activate spyder-env
 
 You need to have the next packages in spyder environment:
@@ -23,6 +23,11 @@ openpyxl 3.0.6,
 pandas 1.2.1,
 scipy 1.6.0,
 seaborn 0.11.1.
+
+To install them please input in command line: 
+
+pip install package, e.g.: pip install Bio
+
 
 To start analysis, you need to create directory containing files MPRAdecoder.py and parameters.py. 
 File MPRAdecoder.py contains script for analysis of raw MPRA data and you should not change something there.
