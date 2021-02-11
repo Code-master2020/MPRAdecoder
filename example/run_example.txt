@@ -1,0 +1,168 @@
+Hello, my friend!
+
+How many FASTQ files would you like to analyze? Press number: 1
+1 FASTQ files will be analyzed.
+
+Enter first absolute path to file: /mnt/d/User/NGS/reads.fastq.gz
+You added 1 files:
+/mnt/d/User/NGS/reads.fastq.gz
+
+Is everything correct? Press Y to continue, press N to restart previous step. y
+
+Enter absolute path to your output file (for example D:\test-folder): /mnt/d/User/NGS/lib37-44/
+
+How many libraries in /mnt/d/User/NGS/reads.fastq.gz would you like to analyze? Press number: 1
+1 libraries will be analyzed.
+Enter first library name: 37-44
+
+Do you have any normalization replicates for library 37-44 in file /mnt/d/User/NGS/reads.fastq.gz? Press Y or N. y
+Enter indices for normalization replicates of library 37-44 in file /mnt/d/User/NGS/reads.fastq.gz.
+If there are more then one index per replicate, print indices in one line separated by spaces. Finally press N.
+n1 n2
+Index N1 was successfully added.
+Index N2 was successfully added.
+n
+
+Do you have any expression replicates for library 37-44 in file /mnt/d/User/NGS/reads.fastq.gz? Press Y or N. y
+Enter indices for expression replicates of library 37-44 in file /mnt/d/User/NGS/reads.fastq.gz.
+If there are more then one index per replicate, print indices in one line separated by spaces. Finally press N.
+e1 e2
+Index E1 was successfully added.
+Index E2 was successfully added.
+n
+
+Do you have any mapping replicates for library 37-44 in file /mnt/d/User/NGS/reads.fastq.gz? Press Y or N. y
+Enter indices for mapping replicates of library 37-44 in file /mnt/d/User/NGS/reads.fastq.gz.
+If there are more then one index per replicate, print indices in one line separated by spaces. Finally press N.
+m1 m2
+Index M1 was successfully added.
+Index M2 was successfully added.
+n
+
+You added 1 libraries:
+Library 37-44.
+
+Normalization replicate with indices ['N1', 'N2'] in file /mnt/d/User/NGS/reads.fastq.gz.
+Expression replicate with indices ['E1', 'E2'] in file /mnt/d/User/NGS/reads.fastq.gz.
+Mapping replicate with indices ['M1', 'M2'] in file /mnt/d/User/NGS/reads.fastq.gz.
+
+Is everything correct? Press Y to continue, press N to restart previous step. y
+
+Let's check acceptable mismatch levels.
+1.1 mismatch in indices.
+2.2 mismatches in barcodes, 1.1 in ROIs.
+4.4 mismatches in neCP1;
+2.2 mismatches in neCP2.
+2.2 mismatches in mCP1
+For library 37-44 8.8 mismatches in mCP2;
+1.1 mismatches for mCP3.
+For mapping control 8.8 mismatches for mCP2;
+1.1 mismatches for mCP3.
+Minimum read count for normalization sample is 3.
+Minimum read count for expression sample is 0.
+
+Would you like to change something? Press Y or N: n
+
+Do you need to perform demultiplexing of your fastq file(s)? Press Y or N: y
+
+Analysis was started 2021-02-11 11:39:20.344478
+1000000 reads were analyzed.
+2021-02-11 12:02:17.769513
+
+Total read count in file /mnt/d/User/NGS/reads.fastq.gz is 1000000.
+In file /mnt/d/User/NGS/reads.fastq.gz was found:
+56453 total reads, 53866 effective reads, 2552 low quality reads and 36446 identical barcodes for index N1.
+49180 total reads, 46927 effective reads, 2218 low quality reads and 33192 identical barcodes for index N2.
+53342 total reads, 50882 effective reads, 2377 low quality reads and 33365 identical barcodes for index E1.
+54512 total reads, 52048 effective reads, 2397 low quality reads and 33914 identical barcodes for index E2.
+19500 total reads, 18157 effective reads, 16 low quality reads and 14461 identical barcodes for index M1.
+23931 total reads, 22329 effective reads, 21 low quality reads and 16915 identical barcodes for index M2.
+743074 reads without any index.
+8 reads with low quality index.
+
+Analysis was finished 2021-02-11 12:02:17.780258
+26873 identical barcodes for mapping of library 37-44.
+
+4019 identical barcodes for normalization of library 37-44.
+
+2103 identical barcodes for library 37-44.
+
+2021-02-11 12:02:19.901828
+['2003 unique barcodes for library 37-44.\n', '71 barcodes were removed from analysis due to high percent of chimeric molecules.\n']
+2021-02-11 12:02:27.126748
+['1670 ROIs with 1 barcodes for lib 37-44.\n', '37 ROIs with 2 barcodes for lib 37-44.\n', '2 ROIs with 3 barcodes for lib 37-44.\n', '0 ROIs with 4 barcodes for lib 37-44.\n', '0 ROIs with 5 barcodes for lib 37-44.\n', '0 ROIs with 6 barcodes for lib 37-44.\n', '0 ROIs with 7 barcodes for lib 37-44.\n', '0 ROIs with 8 barcodes for lib 37-44.\n', '0 ROIs with 9 barcodes for lib 37-44.\n', '0 ROIs with 10 barcodes for lib 37-44.\n', '1 ROIs with more than 10 barcodes for lib 37-44.\n', 'In library 37-44 253 wt ROIs.\n', 'For ROIs in lib 37-44 log2 of normalyzed expressions does not look Gaussian.\nShapiro p-value=1.563287526476786e-34, K^2 p-value=3.783026332354578e-40.\n', 'In library 37-44 180 wt ROIs above zero.\n', 'For wt in lib 37-44 log2 of normalyzed expressions does not looks Gaussian.\np-value=7.810612399905548e-12.\n']
+ROIs in lib 37-44 contains
+0.24981684981684982 of A
+0.23282051282051283 of T
+0.19164835164835164 of G
+0.32571428571428573 of C
+35 ROIs 7 nucleotides long for lib 37-44
+PWM for all ROIs7 bp long in lib 37-44
+        0      1      2      3      4      5      6
+A:   0.40   0.20   0.26   0.31   0.40   0.28   0.20
+C:   0.34   0.31   0.31   0.31   0.20   0.29   0.34
+G:   0.09   0.28   0.17   0.17   0.26   0.17   0.20
+T:   0.17   0.20   0.26   0.20   0.15   0.26   0.26
+
+ACCCACC
+NNNNNNN
+PWM for high expressed ROIs7 bp long in lib 37-44
+        0      1      2      3      4      5      6
+A:   0.08   0.08   0.75   0.42   0.08   0.42   0.08
+C:   0.78   0.44   0.11   0.44   0.44   0.11   0.11
+G:   0.06   0.06   0.06   0.06   0.40   0.06   0.06
+T:   0.08   0.41   0.08   0.08   0.08   0.41   0.74
+
+CCACCAT
+CYAMSWT
+PWM for low expressed ROIs7 bp long in lib 37-44
+        0      1      2      3      4      5      6
+A:   0.08   0.42   0.08   0.42   0.75   0.42   0.08
+C:   0.11   0.44   0.11   0.44   0.11   0.11   0.44
+G:   0.40   0.06   0.06   0.06   0.06   0.40   0.06
+T:   0.41   0.08   0.74   0.08   0.08   0.08   0.41
+
+TCTCAAC
+KMTMARY
+1670 ROIs 8 nucleotides long for lib 37-44
+PWM for all ROIs8 bp long in lib 37-44
+        0      1      2      3      4      5      6      7
+A:   0.34   0.24   0.26   0.24   0.23   0.21   0.24   0.23
+C:   0.34   0.31   0.33   0.34   0.30   0.31   0.33   0.33
+G:   0.06   0.21   0.20   0.22   0.21   0.23   0.21   0.20
+T:   0.25   0.24   0.21   0.19   0.26   0.25   0.22   0.24
+
+CCCCCCCC
+NNNNNNNN
+PWM for high expressed ROIs8 bp long in lib 37-44
+        0      1      2      3      4      5      6      7
+A:   0.34   0.21   0.21   0.23   0.14   0.19   0.23   0.18
+C:   0.38   0.33   0.33   0.25   0.27   0.32   0.40   0.32
+G:   0.01   0.16   0.19   0.28   0.18   0.30   0.14   0.27
+T:   0.26   0.30   0.26   0.24   0.40   0.19   0.23   0.23
+
+CCCGTCCC
+NNNNNNNN
+PWM for low expressed ROIs8 bp long in lib 37-44
+        0      1      2      3      4      5      6      7
+A:   0.44   0.18   0.32   0.30   0.26   0.21   0.19   0.21
+C:   0.17   0.24   0.23   0.37   0.29   0.36   0.33   0.29
+G:   0.19   0.27   0.26   0.20   0.24   0.20   0.27   0.19
+T:   0.20   0.31   0.19   0.13   0.21   0.23   0.20   0.31
+
+ATACCCCT
+NNNNNNNN
+5 ROIs 9 nucleotides long for lib 37-44
+PWM for all ROIs9 bp long in lib 37-44
+        0      1      2      3      4      5      6      7      8
+A:   0.21   0.04   0.37   0.37   0.54   0.37   0.04   0.21   0.04
+C:   0.22   0.55   0.39   0.22   0.05   0.55   0.05   0.55   0.05
+G:   0.03   0.20   0.03   0.03   0.03   0.03   0.03   0.20   0.20
+T:   0.54   0.21   0.21   0.37   0.37   0.04   0.87   0.04   0.71
+
+TCCAACTCT
+TCMNWMTCT
+['256 k-mers 4 bp long were found in library 37-44.\n', '201 high k-mers 4 bp long were found in library 37-44.\n', '198 low k-mers 4 bp long were found in library 37-44.\n']
+['1013 k-mers 5 bp long were found in library 37-44.\n', '290 high k-mers 5 bp long were found in library 37-44.\n', '280 low k-mers 5 bp long were found in library 37-44.\n']
+['2724 k-mers 6 bp long were found in library 37-44.\n', '250 high k-mers 6 bp long were found in library 37-44.\n', '249 low k-mers 6 bp long were found in library 37-44.\n']
+['3036 k-mers 7 bp long were found in library 37-44.\n', '171 high k-mers 7 bp long were found in library 37-44.\n', '171 low k-mers 7 bp long were found in library 37-44.\n']
