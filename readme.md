@@ -5,9 +5,12 @@ Current version (2.0) of this script was designed by Anna Letiagina and Evgeniya
 Version 1.0 of this script was developed by Anton Ivankin.
 
 Dependencies  
-To succesfully implement this script you need to create Spyder environment for python with conda 
+To succesfully implement this script you need to create Spyder environment for python with conda.
+
 Installing conda on linux: https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
-Spyder installation guide: https://docs.spyder-ide.org/current/installation.html 
+
+Spyder installation guide: https://docs.spyder-ide.org/current/installation.html
+
 To activate spyder envirinment:
 conda activate spyder-env
 
