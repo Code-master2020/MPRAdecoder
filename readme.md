@@ -15,14 +15,7 @@ To activate spyder environment:
 conda activate spyder-env
 
 You need to have the next packages in spyder environment:
-bio 0.3.0,
-biopython 1.78,
-matplotlib 3.3.4,
-numpy 1.20.0,
-openpyxl 3.0.6,
-pandas 1.2.1,
-scipy 1.6.0,
-seaborn 0.11.1.
+Bio, scipy, pandas, matplotlib, seaborn. 
 
 To install them please input in command line: 
 
