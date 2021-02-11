@@ -1,5 +1,7 @@
 File parameters.py
 
+Please specify in this file next configurations before starting the analysis.
+
 BC_length - length of barcodes (BCs) in your MPRA analysis
 ROI_length - length of regions of interest (ROIs) in your MPRA analysis
 index_dict - name (e.g. M1, E1, N1 etc) and sequences of your indices (e.g. AGCGAGCT)
