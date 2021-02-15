@@ -1,89 +1,89 @@
-(spyder-env) zh@User-PC:/mnt/d/User/MPRAdecoder$ ./MPRAdecoder.py
+(spyder-env) zh@User-PC:/mnt/d/User/NGS/MPRAdecoder$ ./MPRAdecoder.py
 Hello, my friend!
 
 How many FASTQ files would you like to analyze? Press number: 6
 6 FASTQ files will be analyzed.
 
-Enter first absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N1.fastq.gz
-Enter second absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N2.fastq.gz
-Enter third absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E1.fastq.gz
-Enter next absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E2.fastq.gz
-Enter next absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M1.fastq.gz
-Enter next absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M2.fastq.gz
+Enter first absolute path to file: /mnt/d/User/NGS/input/N1.fastq.gz
+Enter second absolute path to file: /mnt/d/User/NGS/input/N2.fastq.gz
+Enter third absolute path to file: /mnt/d/User/NGS/input/E1.fastq.gz
+Enter next absolute path to file: /mnt/d/User/NGS/input/E2.fastq.gz
+Enter next absolute path to file: /mnt/d/User/NGS/input/M1.fastq.gz
+Enter next absolute path to file: /mnt/d/User/NGS/input/M2.fastq.gz
 
 You added 6 files:
-/mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N1.fastq.gz
-/mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N2.fastq.gz
-/mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E1.fastq.gz
-/mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E2.fastq.gz
-/mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M1.fastq.gz
-/mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M2.fastq.gz
+/mnt/d/User/NGS/input/N1.fastq.gz
+/mnt/d/User/NGS/input/N2.fastq.gz
+/mnt/d/User/NGS/input/E1.fastq.gz
+/mnt/d/User/NGS/input/E2.fastq.gz
+/mnt/d/User/NGS/input/M1.fastq.gz
+/mnt/d/User/NGS/input/M2.fastq.gz
 
 Is everything correct? Press Y to continue, press N to restart previous step. y
 
-Enter absolute path to your output file (for example D:\test-folder): /mnt/d/Omelina_Desktop/NGS/2018-11-20/6samples/
+Enter absolute path to your output file (for example D:\test-folder): /mnt/d/User/NGS/output
 
-How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N1.fastq.gz would you like to analyze? Press number: 1 libraries will be analyzed.
+How many libraries in /mnt/d/User/NGS/input/N1.fastq.gz would you like to analyze? Press number: 1 libraries will be analyzed.
 Enter first library name: 37-44
-Do you have any normalization replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N1.fastq.gz? Press Y or N. y
-Enter indices for normalization replicates of library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N1.fastq.gz.
+Do you have any normalization replicates for library 37-44 in file /mnt/d/User/NGS/input/N1.fastq.gz? Press Y or N. y
+Enter indices for normalization replicates of library 37-44 in file /mnt/d/User/NGS/input/N1.fastq.gz.
 If there are more then one index per replicate, print indices in one line separated by spaces. Finally press N.
 n1
 Index N1 was successfully added.
 n
-Do you have any expression replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N1.fastq.gz? Press Y or N. n
-Do you have any mapping replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N1.fastq.gz? Press Y or N. n
+Do you have any expression replicates for library 37-44 in file /mnt/d/User/NGS/input/N1.fastq.gz? Press Y or N. n
+Do you have any mapping replicates for library 37-44 in file /mnt/d/User/NGS/input/N1.fastq.gz? Press Y or N. n
 
-How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N2.fastq.gz would you like to analyze? Press number: 11 libraries will be analyzed.
+How many libraries in /mnt/d/User/NGS/input/N2.fastq.gz would you like to analyze? Press number: 1 libraries will be analyzed.
 Enter first library name: 37-44
-Do you have any normalization replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N2.fastq.gz? Press Y or N. y
-Enter indices for normalization replicates of library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N2.fastq.gz.
+Do you have any normalization replicates for library 37-44 in file /mnt/d/User/NGS/input/N2.fastq.gz? Press Y or N. y
+Enter indices for normalization replicates of library 37-44 in file /mnt/d/User/NGS/input/N2.fastq.gz.
 If there are more then one index per replicate, print indices in one line separated by spaces. Finally press N.
 n2
 Index N2 was successfully added.
 n
-Do you have any expression replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N2.fastq.gz? Press Y or N. n
-Do you have any mapping replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N2.fastq.gz? Press Y or N. n
+Do you have any expression replicates for library 37-44 in file /mnt/d/User/NGS/input/N2.fastq.gz? Press Y or N. n
+Do you have any mapping replicates for library 37-44 in file /mnt/d/User/NGS/input/N2.fastq.gz? Press Y or N. n
 
-How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E1.fastq.gz would you like to analyze? Press number: 11 libraries will be analyzed.
+How many libraries in /mnt/d/User/NGS/input/E1.fastq.gz would you like to analyze? Press number: 1 libraries will be analyzed.
 Enter first library name: 37-44
-Do you have any normalization replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E1.fastq.gz? Press Y or N. n
-Do you have any expression replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E1.fastq.gz? Press Y or N. y
-Enter indices for expression replicates of library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E1.fastq.gz.
+Do you have any normalization replicates for library 37-44 in file /mnt/d/User/NGS/input/E1.fastq.gz? Press Y or N. n
+Do you have any expression replicates for library 37-44 in file /mnt/d/User/NGS/input/E1.fastq.gz? Press Y or N. y
+Enter indices for expression replicates of library 37-44 in file /mnt/d/User/NGS/input/E1.fastq.gz.
 If there are more then one index per replicate, print indices in one line separated by spaces. Finally press N.
 e1
 Index E1 was successfully added.
 n
-Do you have any mapping replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E1.fastq.gz? Press Y or N. n
+Do you have any mapping replicates for library 37-44 in file /mnt/d/User/NGS/input/E1.fastq.gz? Press Y or N. n
 
-How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E2.fastq.gz would you like to analyze? Press number: 11 libraries will be analyzed.
+How many libraries in /mnt/d/User/NGS/input/E2.fastq.gz would you like to analyze? Press number: 1 libraries will be analyzed.
 Enter first library name: 37-44
-Do you have any normalization replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E2.fastq.gz? Press Y or N. n
-Do you have any expression replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E2.fastq.gz? Press Y or N. y
-Enter indices for expression replicates of library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E2.fastq.gz.
+Do you have any normalization replicates for library 37-44 in file /mnt/d/User/NGS/input/E2.fastq.gz? Press Y or N. n
+Do you have any expression replicates for library 37-44 in file /mnt/d/User/NGS/input/E2.fastq.gz? Press Y or N. y
+Enter indices for expression replicates of library 37-44 in file /mnt/d/User/NGS/input/E2.fastq.gz.
 If there are more then one index per replicate, print indices in one line separated by spaces. Finally press N.
 e2
 Index E2 was successfully added.
 n
-Do you have any mapping replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E2.fastq.gz? Press Y or N. n
+Do you have any mapping replicates for library 37-44 in file /mnt/d/User/NGS/input/E2.fastq.gz? Press Y or N. n
 
-How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M1.fastq.gz would you like to analyze? Press number: 11 libraries will be analyzed.
+How many libraries in /mnt/d/User/NGS/input/M1.fastq.gz would you like to analyze? Press number: 1 libraries will be analyzed.
 Enter first library name: 37-44
-Do you have any normalization replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M1.fastq.gz? Press Y or N. n
-Do you have any expression replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M1.fastq.gz? Press Y or N. n
-Do you have any mapping replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M1.fastq.gz? Press Y or N. y
-Enter indices for mapping replicates of library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M1.fastq.gz.
+Do you have any normalization replicates for library 37-44 in file /mnt/d/User/NGS/input/M1.fastq.gz? Press Y or N. n
+Do you have any expression replicates for library 37-44 in file /mnt/d/User/NGS/input/M1.fastq.gz? Press Y or N. n
+Do you have any mapping replicates for library 37-44 in file /mnt/d/User/NGS/input/M1.fastq.gz? Press Y or N. y
+Enter indices for mapping replicates of library 37-44 in file /mnt/d/User/NGS/input/M1.fastq.gz.
 If there are more then one index per replicate, print indices in one line separated by spaces. Finally press N.
 m1
 Index M1 was successfully added.
 n
 
-How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M2.fastq.gz would you like to analyze? Press number: 11 libraries will be analyzed.
+How many libraries in /mnt/d/User/NGS/input/M2.fastq.gz would you like to analyze? Press number: 1 libraries will be analyzed.
 Enter first library name: 37-44
-Do you have any normalization replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M2.fastq.gz? Press Y or N. n
-Do you have any expression replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M2.fastq.gz? Press Y or N. n
-Do you have any mapping replicates for library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M2.fastq.gz? Press Y or N. y
-Enter indices for mapping replicates of library 37-44 in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M2.fastq.gz.
+Do you have any normalization replicates for library 37-44 in file /mnt/d/User/NGS/input/M2.fastq.gz? Press Y or N. n
+Do you have any expression replicates for library 37-44 in file /mnt/d/User/NGS/input/M2.fastq.gz? Press Y or N. n
+Do you have any mapping replicates for library 37-44 in file /mnt/d/User/NGS/input/M2.fastq.gz? Press Y or N. y
+Enter indices for mapping replicates of library 37-44 in file /mnt/d/User/NGS/input/M2.fastq.gz.
 If there are more then one index per replicate, print indices in one line separated by spaces. Finally press N.
 m2
 Index M2 was successfully added.
@@ -92,12 +92,12 @@ n
 You added 1 libraries:
 Library 37-44.
 
-Normalization replicate with indices ['N1'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N1.fastq.gz.
-Normalization replicate with indices ['N2'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N2.fastq.gz.
-Expression replicate with indices ['E1'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E1.fastq.gz.
-Expression replicate with indices ['E2'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E2.fastq.gz.
-Mapping replicate with indices ['M1'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M1.fastq.gz.
-Mapping replicate with indices ['M2'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M2.fastq.gz.
+Normalization replicate with indices ['N1'] in file /mnt/d/User/NGS/input/N1.fastq.gz.
+Normalization replicate with indices ['N2'] in file /mnt/d/User/NGS/input/N2.fastq.gz.
+Expression replicate with indices ['E1'] in file /mnt/d/User/NGS/input/E1.fastq.gz.
+Expression replicate with indices ['E2'] in file /mnt/d/User/NGS/input/E2.fastq.gz.
+Mapping replicate with indices ['M1'] in file /mnt/d/User/NGS/input/M1.fastq.gz.
+Mapping replicate with indices ['M2'] in file /mnt/d/User/NGS/input/M2.fastq.gz.
 
 Is everything correct? Press Y to continue, press N to restart previous step. y
 
@@ -121,28 +121,28 @@ Do you need to perform demultiplexing of your fastq file(s)? Press Y or N: n
 
 Analysis was started 2021-02-15 16:23:15.346305
 
-Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N1.fastq.gz is 112447.
- In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N1.fastq.gz was found:
+Total read count in file /mnt/d/User/NGS/input/N1.fastq.gz is 112447.
+ In file /mnt/d/User/NGS/input/N1.fastq.gz was found:
  112447 total reads, 106843 effective reads, 5110 low quality reads and 55592 identical barcodes for index N1.
 
-Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N2.fastq.gz is 98608.
- In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/N2.fastq.gz was found:
+Total read count in file /mnt/d/User/NGS/input/N2.fastq.gz is 98608.
+ In file /mnt/d/User/NGS/input/N2.fastq.gz was found:
  98608 total reads, 93528 effective reads, 4443 low quality reads and 51816 identical barcodes for index N2.
 
-Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E1.fastq.gz is 106678.
- In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E1.fastq.gz was found:
+Total read count in file /mnt/d/User/NGS/input/E1.fastq.gz is 106678.
+ In file /mnt/d/User/NGS/input/E1.fastq.gz was found:
  106678 total reads, 100766 effective reads, 4803 low quality reads and 51375 identical barcodes for index E1.
 
-Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E2.fastq.gz is 109556.
- In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/E2.fastq.gz was found:
+Total read count in file /mnt/d/User/NGS/input/E2.fastq.gz is 109556.
+ In file /mnt/d/User/NGS/input/E2.fastq.gz was found:
  109556 total reads, 101572 effective reads, 4770 low quality reads and 51438 identical barcodes for index E2.
 
-Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M1.fastq.gz is 39304.
- In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M1.fastq.gz was found:
+Total read count in file /mnt/d/User/NGS/input/M1.fastq.gz is 39304.
+ In file /mnt/d/User/NGS/input/M1.fastq.gz was found:
  39304 total reads, 36021 effective reads, 32 low quality reads and 24300 identical barcodes for index M1.
 
-Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M2.fastq.gz is 48285.
- In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/files/M2.fastq.gz was found:
+Total read count in file /mnt/d/User/NGS/input/M2.fastq.gz is 48285.
+ In file /mnt/d/User/NGS/input/M2.fastq.gz was found:
  48285 total reads, 44161 effective reads, 34 low quality reads and 28033 identical barcodes for index M2.
 
 Analysis was finished 2021-02-15 16:42:43.132495
