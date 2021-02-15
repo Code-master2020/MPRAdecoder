@@ -1,0 +1,83 @@
+(spyder-env) zh@User-PC:/mnt/d/User/output$ ./MPRAdecoder_stat.py
+2021-02-15 16:55:14.018486
+['1678 unique barcodes for library 37-44.\n', '24 barcodes were removed from analysis due to high percent of chimeric molecules.\n']
+
+2021-02-15 16:55:19.692461
+['1396 ROIs with 1 barcodes for lib 37-44.\n', '28 ROIs with 2 barcodes for lib 37-44.\n', '0 ROIs with 3 barcodes for lib 37-44.\n', '0 ROIs with 4 barcodes for lib 37-44.\n', '0 ROIs with 5 barcodes for lib 37-44.\n', '0 ROIs with 6 barcodes for lib 37-44.\n', '0 ROIs with 7 barcodes for lib 37-44.\n', '0 ROIs with 8 barcodes for lib 37-44.\n', '0 ROIs with 9 barcodes for lib 37-44.\n', '0 ROIs with 10 barcodes for lib 37-44.\n', '1 ROIs with more than 10 barcodes for lib 37-44.\n', 'In library 37-44 226 wt ROIs.\n', 'For ROIs in lib 37-44 log2 of normalyzed expressions does not look Gaussian.\nShapiro p-value=4.1718903331933177e-10, K^2 p-value=6.891071895459806e-08.\n', 'In library 37-44 209 wt ROIs above zero.\n', 'For wt in lib 37-44 log2 of normalyzed expressions looks Gaussian.\np-value=0.12803104519844055.\n']
+
+ROIs in lib 37-44 contains
+0.2556463661130152 of A
+0.2321820898145707 of T
+0.18955971526496176 of G
+0.3226118288074523 of C
+
+26 ROIs 7 nucleotides long for lib 37-44
+PWM for all ROIs7 bp long in lib 37-44
+        0      1      2      3      4      5      6
+A:   0.38   0.19   0.34   0.31   0.19   0.34   0.12
+C:   0.35   0.42   0.20   0.42   0.35   0.23   0.38
+G:   0.12   0.19   0.19   0.04   0.19   0.23   0.12
+T:   0.16   0.19   0.27   0.23   0.27   0.19   0.38
+
+ACACCAC
+NNNNNNY
+PWM for high expressed ROIs7 bp long in lib 37-44
+        0      1      2      3      4      5      6
+A:   0.13   0.13   0.13   0.63   0.13   0.13   0.63
+C:   0.16   0.16   0.66   0.16   0.16   0.16   0.16
+G:   0.09   0.59   0.09   0.09   0.09   0.59   0.09
+T:   0.62   0.12   0.12   0.12   0.62   0.12   0.12
+
+TGCATGA
+TGCATGA
+PWM for low expressed ROIs7 bp long in lib 37-44
+        0      1      2      3      4      5      6
+A:   0.63   0.13   0.13   0.13   0.13   0.13   0.13
+C:   0.16   0.66   0.16   0.66   0.16   0.16   0.66
+G:   0.09   0.09   0.09   0.09   0.59   0.59   0.09
+T:   0.12   0.12   0.62   0.12   0.12   0.12   0.12
+
+ACTCGGC
+ACTCGGC
+1394 ROIs 8 nucleotides long for lib 37-44
+PWM for all ROIs8 bp long in lib 37-44
+        0      1      2      3      4      5      6      7
+A:   0.35   0.24   0.25   0.27   0.21   0.24   0.24   0.24
+C:   0.33   0.30   0.32   0.33   0.32   0.32   0.32   0.33
+G:   0.07   0.21   0.22   0.21   0.20   0.21   0.22   0.18
+T:   0.25   0.24   0.21   0.19   0.27   0.23   0.22   0.25
+
+ACCCCCCC
+NNNNNNNN
+PWM for high expressed ROIs8 bp long in lib 37-44
+        0      1      2      3      4      5      6      7
+A:   0.21   0.20   0.23   0.26   0.12   0.17   0.20   0.20
+C:   0.40   0.37   0.31   0.36   0.34   0.29   0.36   0.27
+G:   0.00   0.09   0.13   0.16   0.19   0.14   0.17   0.19
+T:   0.38   0.34   0.33   0.23   0.36   0.40   0.27   0.34
+
+CCTCTTCT
+YNNNNNNN
+PWM for low expressed ROIs8 bp long in lib 37-44
+        0      1      2      3      4      5      6      7
+A:   0.41   0.27   0.29   0.37   0.24   0.23   0.36   0.19
+C:   0.37   0.31   0.38   0.20   0.29   0.33   0.27   0.44
+G:   0.12   0.19   0.17   0.28   0.31   0.30   0.27   0.19
+T:   0.10   0.23   0.16   0.14   0.16   0.14   0.10   0.19
+
+ACCAGCAC
+MNNNNNNN
+5 ROIs 9 nucleotides long for lib 37-44
+PWM for all ROIs9 bp long in lib 37-44
+        0      1      2      3      4      5      6      7      8
+A:   0.38   0.04   0.21   0.21   0.21   0.21   0.21   0.21   0.21
+C:   0.22   0.55   0.39   0.39   0.39   0.39   0.55   0.39   0.22
+G:   0.03   0.20   0.36   0.20   0.20   0.20   0.03   0.03   0.20
+T:   0.37   0.21   0.04   0.21   0.21   0.21   0.21   0.37   0.37
+
+ACCCCCCCT
+NCSNNNCYN
+['256 k-mers 4 bp long were found in library 37-44.\n', '160 high k-mers 4 bp long were found in library 37-44.\n', '174 low k-mers 4 bp long were found in library 37-44.\n']
+['1014 k-mers 5 bp long were found in library 37-44.\n', '230 high k-mers 5 bp long were found in library 37-44.\n', '240 low k-mers 5 bp long were found in library 37-44.\n']
+['2501 k-mers 6 bp long were found in library 37-44.\n', '206 high k-mers 6 bp long were found in library 37-44.\n', '209 low k-mers 6 bp long were found in library 37-44.\n']
+['2566 k-mers 7 bp long were found in library 37-44.\n', '139 high k-mers 7 bp long were found in library 37-44.\n', '141 low k-mers 7 bp long were found in library 37-44.\n']
