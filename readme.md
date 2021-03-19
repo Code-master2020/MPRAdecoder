@@ -1,8 +1,7 @@
 # MPRAdecoder
 Script used to analyze raw MPRA data in the Laboratory of Cell Division, IMCB SB RAS, Novosibirsk, Russia.
 
-Current version (2.0) of this script was designed by Anna Letiagina and Evgeniya Omelina from Alexey Pindyurin's research group. 
-Version 1.0 of this script was developed by Anton Ivankin.
+Current version (1.0) of this script was designed by Anna Letiagina, Evgeniya Omelina and Anton Ivankin from Alexey Pindyurin's research group. 
 
 Dependencies  
 To succesfully implement this script you need to create Spyder environment for python with conda.
