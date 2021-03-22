@@ -16,9 +16,9 @@ conda activate spyder-env
 You need to have the next packages in spyder environment:
 Bio, scipy, pandas, matplotlib, seaborn, openpyxl. 
 
-To install them please input in command line: 
+To install them please type: 
 
-pip install package, e.g.: pip install Bio
+pip install package (e.g.: pip install Bio)
 
 
 To start analysis, you need to create directory containing files MPRAdecoder.py and parameters.py. 
