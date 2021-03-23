@@ -41,6 +41,8 @@ reference_BCs = {'forward': {
         'reverse':{
                 'control1': 'CGCCTAACCTGCACTTGGAA', 'control2': 'TTGAGAGCAAGCCGTACACA',
                 'experiment1': 'CTTGGAGTGGATCCGGGCTC', 'experiment2': 'GTGGGTTAGCTGACGTGACA'}}
+#If you don't have reference samples, please remove names of BCs as shown below:
+#reference_BCs = {'forward': {}, 'reverse':{}}
 
 reference_ROIs = {'control': 'TTACGCAT', 'experiment': 'TTAGCATG'}
 
