@@ -21,3 +21,26 @@ In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz was found:
 1693 unique BCs for library example-libr.
 1637 genuine BCs for library example-libr.
 23 BCs were removed from analysis due to high percent of chimeric molecules.
+1354 ROIs with 1 BCs for example-libr.
+27 ROIs with 2 BCs for example-libr.
+0 ROIs with 3 BCs for example-libr.
+0 ROIs with 4 BCs for example-libr.
+0 ROIs with 5 BCs for example-libr.
+0 ROIs with 6 BCs for example-libr.
+0 ROIs with 7 BCs for example-libr.
+0 ROIs with 8 BCs for example-libr.
+0 ROIs with 9 BCs for example-libr.
+0 ROIs with 10 BCs for example-libr.
+1 ROIs with more than 10 BCs for example-libr.
+In library example-libr 229 wt ROIs.
+For ROIs in lib example-libr log2 of normalyzed expressions does not look Gaussian.
+Shapiro p-value=9.531535560824977e-10, K^2 p-value=2.0023853102325062e-07.
+In library example-libr 212 wt ROIs above zero.
+For wt in lib example-libr log2 of normalyzed expressions looks Gaussian.
+p-value=0.10873958468437195.
+ROIs in lib example-libr contains
+0.2566931982633864 of A.
+0.23181982633863965 of T.
+0.19057525325615052 of G.
+0.32091172214182345 of C.
+1382 ROIs 8 bp long for example-libr.
