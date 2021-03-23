@@ -1,3 +1,4 @@
+./MPRAdecoder.py
 Hello, user!
 
 How many FASTQ files would you like to analyze? Type number: 
@@ -105,3 +106,48 @@ Analysis was finished 2021-03-23 10:42:35.974484
 ['1637 genuine BCs for library example-libr.\n', '23 BCs were removed from analysis due to high percent of chimeric molecules.\n']
 
 2021-03-23 10:42:44.571335
+
+
+---
+./MPRAdecoder_stat.py
+['1354 ROIs with 1 BCs for example-libr.\n', '27 ROIs with 2 BCs for example-libr.\n', '0 ROIs with 3 BCs for example-libr.\n', '0 ROIs with 4 BCs for example-libr.\n', '0 ROIs with 5 BCs for example-libr.\n', '0 ROIs with 6 BCs for example-libr.\n', '0 ROIs with 7 BCs for example-libr.\n', '0 ROIs with 8 BCs for example-libr.\n', '0 ROIs with 9 BCs for example-libr.\n', '0 ROIs with 10 BCs for example-libr.\n', '1 ROIs with more than 10 BCs for example-libr.\n', 'In library example-libr 229 wt ROIs.\n', 'For ROIs in lib example-libr log2 of normalyzed expressions does not look Gaussian.\nShapiro p-value=9.531535560824977e-10, K^2 p-value=2.0023853102325062e-07.\n', 'In library example-libr 212 wt ROIs above zero.\n', 'For wt in lib example-libr log2 of normalyzed expressions looks Gaussian.\np-value=0.10873958468437195.\n']
+
+ROIs in lib example-libr contains
+0.2566931982633864 of A
+0.23181982633863965 of T
+0.19057525325615052 of G
+0.32091172214182345 of C
+
+1382 ROIs 8 bp long for example-libr
+
+PWM for all ROIs 8 bp long in lib example-libr
+        0      1      2      3      4      5      6      7
+A:   0.35   0.24   0.25   0.27   0.21   0.24   0.24   0.24
+C:   0.32   0.30   0.32   0.33   0.32   0.31   0.33   0.33
+G:   0.07   0.21   0.22   0.21   0.20   0.21   0.23   0.18
+T:   0.25   0.24   0.21   0.19   0.27   0.23   0.21   0.25
+
+ACCCCCCC
+NNNNNNNN
+PWM for high expressed ROIs8 bp long in lib example-libr
+        0      1      2      3      4      5      6      7
+A:   0.22   0.18   0.25   0.28   0.12   0.18   0.20   0.20
+C:   0.39   0.39   0.32   0.35   0.33   0.28   0.36   0.28
+G:   0.00   0.09   0.13   0.16   0.20   0.13   0.17   0.17
+T:   0.39   0.35   0.30   0.22   0.35   0.42   0.26   0.35
+
+CCCCTTCT
+YNNNNNNN
+PWM for low expressed ROIs8 bp long in lib example-libr
+        0      1      2      3      4      5      6      7
+A:   0.40   0.23   0.26   0.36   0.23   0.25   0.33   0.23
+C:   0.38   0.33   0.40   0.19   0.30   0.32   0.29   0.43
+G:   0.13   0.19   0.17   0.29   0.27   0.29   0.27   0.19
+T:   0.09   0.25   0.16   0.16   0.19   0.15   0.10   0.15
+
+ACCACCAC
+MNNNNNNN
+['256 k-mers 4 bp long were found in library example-libr.\n', '161 high k-mers 4 bp long were found in library example-libr.\n', '170 low k-mers 4 bp long were found in library example-libr.\n']
+['1013 k-mers 5 bp long were found in library example-libr.\n', '230 high k-mers 5 bp long were found in library example-libr.\n', '232 low k-mers 5 bp long were found in library example-libr.\n']
+['2459 k-mers 6 bp long were found in library example-libr.\n', '203 high k-mers 6 bp long were found in library example-libr.\n', '201 low k-mers 6 bp long were found in library example-libr.\n']
+['2515 k-mers 7 bp long were found in library example-libr.\n', '138 high k-mers 7 bp long were found in library example-libr.\n', '137 low k-mers 7 bp long were found in library example-libr.\n']
