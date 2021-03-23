@@ -1,0 +1,194 @@
+Hello, user!
+
+How many FASTQ files would you like to analyze? Type number: 
+6
+6 FASTQ files will be analyzed.
+
+Enter first absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M1.fastq.gz
+Enter second absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M2.fastq.gz
+Enter third absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N1.fastq.gz
+Enter next absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N2.fastq.gz
+Enter next absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E1.fastq.gz
+Enter next absolute path to file: /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E2.fastq.gz
+
+You added 6 files:
+/mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M1.fastq.gz
+/mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M2.fastq.gz
+/mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N1.fastq.gz
+/mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N2.fastq.gz
+/mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E1.fastq.gz
+/mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E2.fastq.gz
+Is everything correct? Type Y to continue or N to restart previous step. 
+y
+
+Enter absolute path to your output folder (e.g. /mnt/d/User/output/): 
+/mnt/d/Omelina_Desktop/NGS/2018-11-20/github/6samples-cont0/
+
+How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M1.fastq.gz would you like to analyze? Type number: 1
+1 libraries will be analyzed.
+Enter first library name: 
+example-libr
+Do you have any normalization replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M1.fastq.gz? Type Y or N. 
+n
+Do you have any expression replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M1.fastq.gz? Type Y or N. 
+n
+Do you have any mapping replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M1.fastq.gz? Type Y or N. 
+y
+Enter indexes for mapping replicates of library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M1.fastq.gz.
+If there are more than one index per replicate, print one index per line. Finally type N.
+m1
+Index M1 was successfully added.
+n
+
+How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M2.fastq.gz would you like to analyze? Type number: 
+1
+1 libraries will be analyzed.
+Enter first library name: 
+example-libr
+Do you have any normalization replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M2.fastq.gz? Type Y or N. 
+n
+Do you have any expression replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M2.fastq.gz? Type Y or N. 
+n
+Do you have any mapping replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M2.fastq.gz? Type Y or N. 
+y
+Enter indexes for mapping replicates of library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M2.fastq.gz.
+If there are more than one index per replicate, print one index per line. Finally type N.
+m2
+Index M2 was successfully added.
+n
+
+How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N1.fastq.gz would you like to analyze? Type number: 
+1
+1 libraries will be analyzed.
+Enter first library name: 
+example-libr
+Do you have any normalization replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N1.fastq.gz? Type Y or N. 
+y
+Enter indexes for normalization replicates of library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N1.fastq.gz.
+If there are more than one index per replicate, print one index per line. Finally type N.
+n1
+Index N1 was successfully added.
+n
+Do you have any expression replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N1.fastq.gz? Type Y or N. 
+n
+Do you have any mapping replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N1.fastq.gz? Type Y or N. 
+n
+
+How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N2.fastq.gz would you like to analyze? Type number: 
+1
+1 libraries will be analyzed.
+Enter first library name: 
+example-libr
+Do you have any normalization replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N2.fastq.gz? Type Y or N. 
+y
+Enter indexes for normalization replicates of library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N2.fastq.gz.
+If there are more than one index per replicate, print one index per line. Finally type N.
+n2
+Index N2 was successfully added.
+n
+Do you have any expression replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N2.fastq.gz? Type Y or N. 
+n
+Do you have any mapping replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N2.fastq.gz? Type Y or N. 
+n
+
+How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E1.fastq.gz would you like to analyze? Type number: 
+1
+1 libraries will be analyzed.
+Enter first library name: 
+example-libr
+Do you have any normalization replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E1.fastq.gz? Type Y or N. 
+n
+Do you have any expression replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E1.fastq.gz? Type Y or N. 
+y
+Enter indexes for expression replicates of library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E1.fastq.gz.
+If there are more than one index per replicate, print one index per line. Finally type N.
+e1
+Index E1 was successfully added.
+n
+Do you have any mapping replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E1.fastq.gz? Type Y or N. 
+n
+
+How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E2.fastq.gz would you like to analyze? Type number: 
+1
+1 libraries will be analyzed.
+Enter first library name: 
+example-libr
+Do you have any normalization replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E2.fastq.gz? Type Y or N. 
+n
+Do you have any expression replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E2.fastq.gz? Type Y or N. 
+y
+Enter indexes for expression replicates of library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E2.fastq.gz.
+If there are more than one index per replicate, print one index per line. Finally type N.
+e2
+Index E2 was successfully added.
+n
+Do you have any mapping replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E2.fastq.gz? Type Y or N. 
+n
+
+You added 1 libraries:
+Library example-libr.
+
+Normalization replicate with indexes ['N1'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N1.fastq.gz.
+Normalization replicate with indexes ['N2'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N2.fastq.gz.
+Expression replicate with indexes ['E1'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E1.fastq.gz.
+Expression replicate with indexes ['E2'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E2.fastq.gz.
+Mapping replicate with indexes ['M1'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M1.fastq.gz.
+Mapping replicate with indexes ['M2'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M2.fastq.gz.
+
+Is everything correct? Type Y to continue or N to restart previous step. 
+y
+
+Please, check acceptable mismatch levels.
+1 mismatches in indexes.
+2 mismatches in BCs, 0 in ROIs.
+4 mismatches in neCP1;
+2 mismatches in neCP2.
+2 mismatches in mCP1
+For library example-libr 8 mismatches in mCP2;
+1 mismatches for mCP3.
+Minimum read count for normalization sample is 3.
+Minimum read count for expression sample is 0.
+Minimum read count for mapping sample is 1.
+
+Would you like to change something? Type Y or N: 
+n
+
+Do you need to perform demultiplexing of your fastq file(s)? Type Y or N: 
+n
+
+Analysis was started 2021-03-23 11:15:35.245794
+
+Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M1.fastq.gz is 39304.
+In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M1.fastq.gz was found:
+39304 total reads, 35183 effective reads, 28 low quality reads and 23739 unique barcodes for index M1.
+
+Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M2.fastq.gz is 48285.
+In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/M2.fastq.gz was found:
+48285 total reads, 43179 effective reads, 29 low quality reads and 27422 unique barcodes for index M2.
+
+Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N1.fastq.gz is 112447.
+In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N1.fastq.gz was found:
+112447 total reads, 106732 effective reads, 5148 low quality reads and 55584 unique barcodes for index N1.
+
+Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N2.fastq.gz is 98608.
+In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/N2.fastq.gz was found:
+98608 total reads, 93446 effective reads, 4482 low quality reads and 51812 unique barcodes for index N2.
+
+Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E1.fastq.gz is 106678.
+In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E1.fastq.gz was found:
+106678 total reads, 100650 effective reads, 4873 low quality reads and 51379 unique barcodes for index E1.
+
+Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E2.fastq.gz is 109556.
+In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/E2.fastq.gz was found:
+109556 total reads, 101469 effective reads, 4814 low quality reads and 51445 unique barcodes for index E2.
+
+Analysis was finished 2021-03-23 11:25:01.079051
+10253 BCs for mapping of library example-libr.
+
+4388 BCs for normalization of library example-libr.
+
+1704 unique BCs for library example-libr.
+
+2021-03-23 11:25:04.820559
+['1651 genuine BCs for library example-libr.\n', '23 BCs were removed from analysis due to high percent of chimeric molecules.\n']
+2021-03-23 11:25:10.152896
