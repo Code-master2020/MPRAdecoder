@@ -1,0 +1,23 @@
+Hello, user!
+1 mismatch in indexes.
+2 mismatches in BCs, 0 in ROIs.
+4 mismatches in neCP1;
+2 mismatches in neCP2 20 bp long.
+2 mismatches in mCP1
+For library example-libr 8 mismatches in mCP2;
+1 mismatches for mCP3 10 bp long.
+Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz is 514878.
+In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz was found:
+112041 total reads, 106801 effective reads, 5126 low quality reads and 55522 unique barcodes for index N1.
+98051 total reads, 93488 effective reads, 4463 low quality reads and 51747 unique barcodes for index N2.
+105853 total reads, 100802 effective reads, 4829 low quality reads and 51330 unique barcodes for index E1.
+106549 total reads, 101604 effective reads, 4780 low quality reads and 51414 unique barcodes for index E2.
+38573 total reads, 35069 effective reads, 138 low quality reads and 23706 unique barcodes for index M1.
+47247 total reads, 43023 effective reads, 192 low quality reads and 27388 unique barcodes for index M2.
+6564 reads without any index.
+0 reads with low quality index.
+10230 BCs for mapping of library example-libr.
+4362 BCs for normalization of library example-libr.
+1693 unique BCs for library example-libr.
+1637 genuine BCs for library example-libr.
+23 BCs were removed from analysis due to high percent of chimeric molecules.
