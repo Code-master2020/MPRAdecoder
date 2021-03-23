@@ -1,0 +1,107 @@
+Hello, user!
+
+How many FASTQ files would you like to analyze? Type number: 
+1
+1 FASTQ files will be analyzed.
+
+Enter first absolute path to file: 
+/mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz
+
+You added 1 files:
+/mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz
+Is everything correct? Type Y to continue or N to restart previous step. 
+y
+
+Enter absolute path to your output folder (e.g. /mnt/d/User/output/): 
+/mnt/d/Omelina_Desktop/NGS/2018-11-20/github/1sample/
+
+How many libraries in /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz would you like to analyze? Type number: 
+1
+1 libraries will be analyzed.
+
+Enter first library name: 
+example-libr
+
+Do you have any normalization replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz? Type Y or N. 
+y
+Enter indexes for normalization replicates of library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz.
+If there are more than one index per replicate, print one index per line. Finally type N.
+n1
+Index N1 was successfully added.
+n2
+Index N2 was successfully added.
+n
+Do you have any expression replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz? Type Y or N. y
+Enter indexes for expression replicates of library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz.
+If there are more than one index per replicate, print one index per line. Finally type N.
+e1
+Index E1 was successfully added.
+e2
+Index E2 was successfully added.
+n
+Do you have any mapping replicates for library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz? Type Y or N. y
+Enter indexes for mapping replicates of library example-libr in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz.
+If there are more than one index per replicate, print one index per line. Finally type N.
+m1
+Index M1 was successfully added.
+m2
+Index M2 was successfully added.
+n
+
+You added 1 libraries:
+Library example-libr.
+
+Normalization replicate with indexes ['N1'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz.
+Normalization replicate with indexes ['N2'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz.
+Expression replicate with indexes ['E1'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz.
+Expression replicate with indexes ['E2'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz.
+Mapping replicate with indexes ['M1'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz.
+Mapping replicate with indexes ['M2'] in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz.
+
+Is everything correct? Type Y to continue or N to restart previous step. 
+y
+
+Please, check acceptable mismatch levels.
+1 mismatches in indexes.
+2 mismatches in BCs, 0 in ROIs.
+4 mismatches in neCP1;
+2 mismatches in neCP2.
+2 mismatches in mCP1
+For library example-libr 8 mismatches in mCP2;
+1 mismatches for mCP3.
+For mapping reference 7 mismatches for mCP2;
+1 mismatches for mCP3.
+Minimum read count for normalization sample is 3.
+Minimum read count for expression sample is 0.
+Minimum read count for mapping sample is 1.
+
+Would you like to change something? Type Y or N: 
+n
+
+Do you need to perform demultiplexing of your fastq file(s)? Type Y or N: 
+y
+
+Analysis was started 2021-03-23 10:23:42.464156
+
+Total read count in file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz is 514878.
+In file /mnt/d/Omelina_Desktop/NGS/2018-11-20/github/reads.fastq.gz was found:
+112041 total reads, 106801 effective reads, 5126 low quality reads and 55522 unique barcodes for index N1.
+98051 total reads, 93488 effective reads, 4463 low quality reads and 51747 unique barcodes for index N2.
+105853 total reads, 100802 effective reads, 4829 low quality reads and 51330 unique barcodes for index E1.
+106549 total reads, 101604 effective reads, 4780 low quality reads and 51414 unique barcodes for index E2.
+38573 total reads, 35069 effective reads, 138 low quality reads and 23706 unique barcodes for index M1.
+47247 total reads, 43023 effective reads, 192 low quality reads and 27388 unique barcodes for index M2.
+6564 reads without any index.
+0 reads with low quality index.
+
+Analysis was finished 2021-03-23 10:42:35.974484
+10230 BCs for mapping of library example-libr.
+
+4362 BCs for normalization of library example-libr.
+
+1693 unique BCs for library example-libr.
+
+2021-03-23 10:42:39.636293
+['1637 genuine BCs for library example-libr.\n', '23 BCs were removed from analysis due to high percent of chimeric molecules.\n']
+
+2021-03-23 10:42:44.571335
