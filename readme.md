@@ -1,5 +1,5 @@
 # MPRAdecoder
-Script used to process raw MPRA data in the Laboratory of Cell Division, IMCB SB RAS, Novosibirsk, Russia.
+Script to process raw MPRA data in the Laboratory of Cell Division, IMCB SB RAS, Novosibirsk, Russia.
 
 Current version (1.0) of this script was designed by Anna Letiagina, Evgeniya Omelina and Anton Ivankin from Alexey Pindyurin's research group. 
 
