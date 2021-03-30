@@ -64,7 +64,7 @@ def make_tables(
 				df_lib_dict = {'Barcode': [], 'ROI': []}
 				for barcode in uniq_gold_dictionary[lib]['barcodes-ROIs']:
 					df_lib_dict['Barcode'].append(barcode)
-					for ROI in uniq_gold_dictionary[lib]['barcodes-ROIs'][barcode]['major ROI']:
+					for ROI in uniq_gold_dictionary[lib]['barcodes-ROIs'][barcode]['main ROI']:
 						df_lib_dict['ROI'].append(ROI)
 			else:
 				df_lib_dict = {'Barcode': []}
